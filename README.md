@@ -6,7 +6,7 @@ This a assignment submission for a Intersnhip Test
 3. All requirements and condition checks and performed in the backend.
 4. User error messages have been crafted as per the requirement document.
 
-
+Note : For screenshots and a Video tutorial pls visit the [Project Wiki](Project Wiki)
 # How to run on a local machine :- 
 1. perform npm install ( for downloading dependencies )
 2. Open a cmd prompt and type `npm start`
