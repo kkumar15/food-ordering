@@ -11,3 +11,7 @@ Note : For screenshots and a Video tutorial pls visit the [Project Wiki](https:/
 1. perform npm install ( for downloading dependencies )
 2. Open a cmd prompt and type `npm start`
 3. The application would open on port `http://localhost:3000/`
+
+# How to test :-
+ 1. run `npm test` in the cmd prompt
+ 2. The tests would start and test results are published by Jest.
