@@ -2,7 +2,7 @@ import { getMealsForTheDay } from "../../../services/meals"
 
 export default async function handler(req, res) {
     try {
-        let offerings = getMealsForTheDay()
+        let offerings = getMealsForTheDay();
         return res.status(offerings.status).json(offerings)
     } catch (error) {
         console.error(error)

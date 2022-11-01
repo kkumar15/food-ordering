@@ -38,10 +38,10 @@ export default function MealsView() {
     const callOrder = async () => {
         let id = router.query.id
         let tempArray = []
-        for (let i in orders) {
+        for (let order in orders) {
             let count = orders[i]
             for (let j = 0; j < count; j++) {
-                tempArray.push(i)
+                tempArray.push(order)
             }
         }
         let url = orderUrl.replace(":id", `${id} ${tempArray.join(",")}`)
